@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;800&display=swap');
+    
+    .row{
+      display: grid;
+      margin-top: -50px;
+      margin-left: 50px;
+      align-items: center;
+      justify-content: center;
+      grid-template-columns: 155px 155px 155px 155px;
+      grid-template-rows: 250px 250px 250px 250px;
+    }
+    .card{
+      margin-top: 200px;
+      position: relative;
+      /* border: 1px solid #ccc; */
+      width: 120px;
+      height: 180px;
+      text-align: center;
+      border-radius: 30px;
+      margin-right: 30px;
+      box-shadow: 1px 1px 10px #cccccc;
+      transition-duration: 55ms;
+      cursor: pointer;
+    }
+    .card:hover{
+      transform: scale(1.1);
+    }
+    img{
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      top: -30px;
+      left: 10px;
+      border-radius: 100px;
+    }
+    p{
+      margin-top: 85px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 900;
+      font-size: 20px;
+      line-height: 20px;
+    }
+    .harga{
+      margin-top: -10px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 580;
+      font-size: 15px;
+      color: #6A4029;
+    }
+    .hargaveg{
+      margin-top: -15px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 580;
+      font-size: 15px;
+      color: #6A4029;
+    }
+    .veggie{
+      margin-top: 70px;
+    }
